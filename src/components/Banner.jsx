@@ -19,12 +19,7 @@ class Banner extends React.Component {
   }
   render() {
     return (
-      <Carousel
-        autoplay
-        infinite
-        beforeChange={(from, to) => console.log(`slide from ${from} to ${to}`)}
-        afterChange={(index) => console.log('slide to', index)}
-      >
+      <Carousel autoplay infinite>
         {this.state.data.map((val) => (
           <a
             key={val}

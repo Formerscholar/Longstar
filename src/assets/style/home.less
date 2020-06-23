@@ -1,0 +1,55 @@
+@import './global.less';
+
+.home_page {
+  .sub_list {
+    padding: 15px 15px 0;
+    border-top: 1px solid #ddd;
+
+    h3,
+    p {
+      margin: 0;
+    }
+
+    .sub_header {
+      font-size: 20px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
+    }
+
+    .listItem {
+      padding: 12px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .listItem_left {
+      flex: 0 1 auto;
+    }
+
+    img {
+      display: block;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.666em;
+    }
+  }
+
+  .tab {
+    .am-tabs-default-bar-tab {
+      font-size: 18px;
+    }
+
+    .am-tabs-default-bar-tab-active {
+      color: @base-color;
+    }
+
+    .am-tabs-default-bar-underline {
+      border-color: @base-color;
+    }
+  }
+
+}
